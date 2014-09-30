@@ -1,0 +1,83 @@
+/* 
+    Document   : xlapp
+    Created on : 2014-9-13, 14:43:40
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body
+{
+    background: url('../image/bg.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.xl_head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background:rgba(0,0,0,0.4);
+    color: #FFFFFF;
+
+
+}
+.xl_head table{
+    width:100%
+}
+.xl_head table tr td:first-child{
+    width: 50px;
+    margin-left: 10px;
+    text-align: center;
+
+    background:rgba(0,0,0,0.6);
+
+}
+.xl_head table tr td:first-child:active{
+    /*    background: rgba(0,0,0,0.8)*/
+}
+.xl_head table tr td:last-child{
+    width: 50px;
+    margin-right: 10px
+}
+.xl_input
+{
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+.xl_divCenter{
+    display: box; 
+    display: -webkit-box; 
+    display: -moz-box; 
+
+    -webkit-box-pack:center; 
+    -moz-box-pack:center; 
+    -webkit-box-align:center; 
+    -moz-box-align:center; 
+} 
+.xl_divCenter ul {
+    list-style: none;
+   -webkit-padding-start: 5px;
+}
+.xl_divCenter ul li {
+  
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+
+

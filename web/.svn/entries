@@ -1,0 +1,28 @@
+10
+
+dir
+0
+https://183.237.196.118:8888/svn/trunk/XLfound/web
+https://183.237.196.118:8888/svn/trunk
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+632aa05b-701b-d445-acd6-895f0f5ccd00
+
